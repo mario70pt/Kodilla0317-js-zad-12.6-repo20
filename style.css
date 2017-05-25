@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans');
+html, body {
+    height: 80%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://static.pexels.com/photos/35107/pexels-photo.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: #ecf0f1;
+    text-shadow: 2px 3px #7f8c8d;
+}
+h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+#country-name {
+    font-size: 15px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+#search {
+    margin: 40px;
+    padding: 5px 20px;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    color: #2c3e50;
+    text-shadow: 2px 3px #bdc3c7;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 1px 2px #7f8c8d;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+#countries {
+    font-family: 'Ropa Sans', sans-serif;
+    color: #ecf0f1;
+    font-size: 23px;
+}
